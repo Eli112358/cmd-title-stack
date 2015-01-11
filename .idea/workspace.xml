@@ -6,8 +6,8 @@
     </generated>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="730bc3c7-dc3d-4606-a672-fbaa98d14fc1" name="Default" comment="Added getFile,remove and stackSize methods to stack.cpp&#10;Renamed set to add&#10;Removed getName&#10;Removed first parameter of add&#10;Storing the stack in a file instead of env vars&#10;Filled in main in pusht.cpp&#10;Added help and replaceAll methods to pusht.cpp">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/popt.cpp" afterPath="$PROJECT_DIR$/src/popt.cpp" />
+    <list default="true" id="730bc3c7-dc3d-4606-a672-fbaa98d14fc1" name="Default" comment="Filled in main in popt.cpp&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/setup.bat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cmd-title-stack.iws" />
@@ -61,14 +61,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popt.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="popt.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/popt.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15813954" vertical-offset="0" max-vertical-offset="645">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.bat" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/setup.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.105426356" vertical-offset="0" max-vertical-offset="645">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,6 +94,7 @@
         <option value="$PROJECT_DIR$/src/stack.cpp" />
         <option value="$PROJECT_DIR$/src/pusht.cpp" />
         <option value="$PROJECT_DIR$/src/popt.cpp" />
+        <option value="$PROJECT_DIR$/src/setup.bat" />
       </list>
     </option>
   </component>
@@ -228,7 +237,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420965128718</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Filled in main in popt.cpp&#10;">
+      <created>1420965602267</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1420965602267</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -276,7 +291,8 @@
     <MESSAGE value="Added get and set methods to stack&#10;Added .idea/codeStylesSettings.xml&#10;Minor code reformatting" />
     <MESSAGE value="Added getName and show methods to stack&#10;Method set:&#10; - Changed return type to void&#10; - Changed second parameter type to string&#10;Filled in all four method bodies&#10;" />
     <MESSAGE value="Added getFile,remove and stackSize methods to stack.cpp&#10;Renamed set to add&#10;Removed getName&#10;Removed first parameter of add&#10;Storing the stack in a file instead of env vars&#10;Filled in main in pusht.cpp&#10;Added help and replaceAll methods to pusht.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added getFile,remove and stackSize methods to stack.cpp&#10;Renamed set to add&#10;Removed getName&#10;Removed first parameter of add&#10;Storing the stack in a file instead of env vars&#10;Filled in main in pusht.cpp&#10;Added help and replaceAll methods to pusht.cpp" />
+    <MESSAGE value="Filled in main in popt.cpp&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filled in main in popt.cpp&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -344,9 +360,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -380,9 +394,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -414,11 +426,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/popt.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15813954" vertical-offset="0" max-vertical-offset="645">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/setup.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.105426356" vertical-offset="0" max-vertical-offset="645">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
