@@ -8,12 +8,8 @@
     </generated>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="730bc3c7-dc3d-4606-a672-fbaa98d14fc1" name="Default" comment="Added stack.h&#10;Moved pre-declarations from stack.cpp to stack.h&#10;&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/stack.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/popt.cpp" afterPath="$PROJECT_DIR$/src/popt.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pusht.cpp" afterPath="$PROJECT_DIR$/src/pusht.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stack.cpp" afterPath="$PROJECT_DIR$/src/stack.cpp" />
+    <list default="true" id="730bc3c7-dc3d-4606-a672-fbaa98d14fc1" name="Default" comment="Added stack.h&#10;Moved pre-declarations from stack.cpp to stack.h&#10;Added executables to Make List&#10;Fixed bugs and a typo">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/LAT.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cmd-title-stack.iws" />
@@ -70,8 +66,8 @@
       <file leaf-file-name="pusht.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pusht.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -200,7 +196,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="CMAKE.AUTO_RELOAD_ENABLED" value="true" />
     <property name="LayoutCode.rearrangeEntriesC/C++" value="true" />
@@ -217,7 +213,7 @@
       <recent name="C:\EHD-Luke\Repositories\GitHub\cmd-title-stack\src\stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.pusht">
+  <component name="RunManager" selected="Application.popt - release">
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -238,9 +234,21 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="Both" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="cmd_title_stack" TARGET_NAME="pusht" CONFIG_NAME="Debug">
+      <envs />
+      <method>
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="popt - release" run_configuration_type="CMakeRunConfiguration" />
+      </method>
+    </configuration>
+    <configuration default="false" name="popt - release" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="cmd_title_stack" TARGET_NAME="popt" CONFIG_NAME="Release">
+      <envs />
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.pusht" />
       <item index="1" class="java.lang.String" itemvalue="Application.popt" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Both" />
+      <item index="3" class="java.lang.String" itemvalue="Application.popt - release" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -299,7 +307,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420970322770</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added stack.h&#10;Moved pre-declarations from stack.cpp to stack.h&#10;Added executables to Make List&#10;Fixed bugs and a typo">
+      <created>1421216738917</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1421216738917</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -351,7 +365,8 @@
     <MESSAGE value="Added setup.bat&#10;" />
     <MESSAGE value="Added initTstack.bat&#10;" />
     <MESSAGE value="Removed set title... and title %title%&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed set title... and title %title%&#10;" />
+    <MESSAGE value="Added stack.h&#10;Moved pre-declarations from stack.cpp to stack.h&#10;Added executables to Make List&#10;Fixed bugs and a typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added stack.h&#10;Moved pre-declarations from stack.cpp to stack.h&#10;Added executables to Make List&#10;Fixed bugs and a typo" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -549,8 +564,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pusht.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
