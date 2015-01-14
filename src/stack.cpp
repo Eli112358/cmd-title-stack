@@ -1,17 +1,10 @@
 #include <stdlib.h>
-#include <bits/stringfwd.h>
-#include <bits/basic_string.h>
-#include <iosfwd>
-#include <bits/stl_algo.h>
+#include <string>
 #include <fstream>
 #include <iostream>
+#include <bits/stl_algo.h>
+#include "stack.h"
 using namespace std;
-void add(string value);
-string get(int index);
-char *getFile();
-string remove(int index);
-void show(int index);
-long stackSize();
 void add(string value) {
 	ofstream ofs(getFile(),ios::app);
 	if(!ofs.is_open()) {
@@ -55,7 +48,11 @@ string remove(int index) {
 		cout<<"Unable to open file: "<<getFile()<<'\n';
 		return "";
 	}
-	for(int i=0;i<prev.size();++i) if(i!=index) ofs<<prev(i)<<'\n';
+	for(int i=0;i<prev.size();++i)
+		if(i!=index) {
+			line=prev[i]+"\n";
+			ofs.write(line.c_str(),line.size());
+		}
 	ofs.flush();
 	ofs.close();
 	return removed;
@@ -63,6 +60,11 @@ string remove(int index) {
 void show(int index) {
 	cout<<get(index)<<'\n';
 }
-long stackSize() {
-	return count(istreambuf_iterator<char>(ifstream(getFile())),istreambuf_iterator<char>(),'\n');
+int stackSize() {
+	ifstream ifs(getFile());
+	if(!ifs.is_open()) {
+		cout<<"Unable to open file: "<<getFile()<<'\n';
+		return 0;
+	}
+	return (int)count(istreambuf_iterator<char>(ifs),istreambuf_iterator<char>(),'\n');
 }
