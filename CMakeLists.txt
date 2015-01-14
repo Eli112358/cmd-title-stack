@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.8.4)
 project(cmd_title_stack)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY bin)
 set(SOURCE_FILES src/stack.cpp src/pusht.cpp)
 add_executable(pusht ${SOURCE_FILES})
 set(SOURCE_FILES src/stack.cpp src/popt.cpp)
